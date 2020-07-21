@@ -3,37 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Hommy</title>
 </head>
 <body>
+    
     <nav>
+        <div class="logo">
+           <img src=".//assets/hommy.png" alt=""width=80px height=35px class="logo">
+    
+        </div>
+        <a href="#">Home</a>
+        <div id="login"><a href="#">Login</a></div>
+        <a href="#SN">Sobre nós</a>
+        <a href="#APP">Aplicativo</a>
+        <a href="#Contato">Contato</a>
         
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Anunciar</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">App para Android e IOS</a></li>
-        </ul>
+        
+        
+        
+        
+      
     </nav>
-    <header><img src="./hommy2.png" alt=""width=150px height=100px> </header>
+    <div class="slogan">
+
+        <h2>Hommy, Quem divide multiplica!</h2>
+        <h4>A melhor locadora de república do Brasil.</h4>
+        
+
+    </div>
     
-    <h2>Hommy,Quem divide multiplica!</h2>
-    <form action="">
-        Pesquise por cidade:<input type="text" name="" id=""><button>Pesquisar</button>
-    </form><br><br><br>
-    <form action="">
-        <textarea name="" id="" cols="30" rows="10">Digite sua mensagem</textarea><br>
+   
+   
+    <div class="section">
+        <section class="pesquisa">
+        
+            <form action="" class="formulario">
+                <input type="text" class="search" placeholder="Pesquise por Cidade" required>
+                <input type="text" placeholder="Hóspedes" class="hospede"required>
+                <select name="" id="">
+                    <option value="0">Selecione</option>
+                    <option value="2">UFRJ</option>
+                    <option value="3">UFF</option>
+                    <option value="4">UFMG</option>
+                    <option value="5">USP</option>
+                    <option value="6">UERJ</option>
+                    <option value="7">UFRRJ</option>
+                </select>
+
+                <button type="submit">Pesquisar</button>
+                
+            </form>
+
+        </section>
+    </div>
+
+
+    <div class="title">
+        <h2 id="SN">Sobre Nós</h2>
+    </div>
+        <div class="sobre">
+            <h4>Somos uma empresa de locadora de república destinada aos universitários que estanciam longe de suas respectivas faculdades.
+                Sabendo que isso dificulta muito a vida do estudante, criamos esta ferramenta com o intuito de facilitar sua locomoção,
+                com um jeito mais fácil de achar uma república para residir.
+            </h4>
+        </div>
+        
+            <div class="content">
+                <div class="grid">
+                    <li>
+                        <img src="./assets/money.svg" alt="Ícone de dinheiro" class="money">
+                        <h2>Preço</h2>
+                        <h3>Um ótimo preço para universitários à procura de uma boa república perto da faculdade.</h3>
+                    </li>
+
+                </div>
+                <div class="grid">
+                    <li>
+                        <img src="./assets/like.svg" alt="Ícone de like">
+                        <h2>Qualidade</h2>
+                        <h3>Possui a maior nota de aplicativo de hospedagem
+                            do mercado. Sempre disposto a ajudar o seu cliente.
+                        </h3>
+                    </li>
+                </div>
+                <div class="grid">
+                    <li>
+                        <img src="./assets/heart.svg" alt="Ícone de coração">
+                        <h2>Dedicação</h2>
+                        <h3>Aplicativo feito de universitários para universitários,
+                            com muita dedicação para ajudar os graduandos 
+                            .
+                        </h3>
+                    </li>
+                
+                </div>
+
+                
+
+            </div>
+
+    <div id="modal" class="hide">
+        <div class="content2">
+            <div class="header">
+                <a href="#">Fechar</a>
+                <div class="usuario">
+                    <div class="label">
+                        <label for="user">Username</label>
+                    <input type="text" name="usuario" placeholder="Enter Username">
+                        <label for="senha">Password</label>
+                    <input type="text" name="password" placeholder="Enter Password">
+                    <button type="submit">Login</button>
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="aplicativo" id="APP">
+        <div class="app-titulo">
+           
+        </div>
+
+        <div class="foto">
+            <img src="./assets/app.png" alt="Foto do Aplicativo" width="250vw" height="500vh">
+            <img src=".//assets/app2.png" alt="Foto da tela de comentarios do aplicativo" width="250vw" height="493vh" class="comentario">
+        </div>
+        <div class="download">
+            
+            <h2>Baixe agora nosso APP</h2>
+            <h3>Agende sua República sem sair de casa</h3>
+            <button class="apple"><h4>Disponivel na</h4>
+                <h5>Apple Store</h5>
+            </button>
+            <button class="google-play"><h4>Disponivel na</h4><h5>Google Play</h5></button>
+
+        </div>
+
+        
+    </div>
+    
+    <div class="contato" id="Contato">
+        <h1>Entre em contato conosco</h1>
+        <label for="">Nome</label>
+        <input type="text" placeholder="Digite seu nome">
+        <label for="">Email</label>
+        <input type="text" placeholder="Digite seu E-mail">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
         <button type="submit">Enviar</button>
-    </form>
-    <footer>
-        <h5>Feito em Rio de Janeiro. Os direitos autorais dos trabalhos de todos os membros são do respectivo proprietário, caso contrário © 2020 Adobe Systems Incorporated</h5>
-        <img src="./facebook.png" alt=""> <img src="./instagram.png" alt=""> <img src="./linkedin.png" alt="">
-    </footer>
-
-       
-
+    </div>
     
+    <div class="footer">
+
+        <footer>
+            <h5>© 2020 Copyright Hommy - Todos os Direitos Reservados.</h5>
+            <div class="redes">
+                <img src="./assets/facebook.png" alt="facebook">
+                <img src=".//assets/instagram.png" alt="instagram"> 
+                <img src=".//assets/linkedin.png" alt="linkedin">
+            </div>
+        </footer>
+    
+    </div>
+
+    <script src="modal.js"></script>
 </body>
 </html>

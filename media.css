@@ -1,0 +1,231 @@
+@media(max-width:768px){
+    /* Tablet */
+    .logo{
+        width: 15vw;
+        height: 7vh;
+        position: absolute;
+        top: 0vh;
+        left:2vw;
+        
+        
+    }
+    .slogan{
+        
+        font-size: 1em;
+    }
+    body{
+        width:100vw;
+    }
+    .pesquisa{
+        width: 100vw;
+    }
+    .section{
+        width: 100vw;
+        align-items: center;
+
+    }
+
+    .content{
+        background-size: cover;
+        display:flex;
+        width:100%;
+        height:60vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .content img{
+        display: flex;
+        align-items: center;
+        margin-left: 6vw;
+    }
+  
+    .aplicativo{
+        width: 100vw;
+        background-size: cover;
+    }
+    .aplicativo .foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:60vw;
+        top:166vh;
+
+    }
+    .aplicativo .download{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .aplicativo .download h2{
+        font-size: 1em;
+        position: relative;
+        left: 30vw;
+
+    }
+    
+
+    .aplicativo .download h3{
+        font-size: 0.8em;
+       position: relative;
+       left: 30vw;
+    }
+    .aplicativo .download button{
+        position: relative;
+        left: 20vw;
+        padding: 3vw;
+        padding-right: 2vw;
+    }
+    .aplicativo .download button::before{
+        position: absolute;
+        left: 1vw;
+        bottom: 7vh;
+        
+        align-items: center;
+    
+    }
+    .contato{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+    footer{
+        width:100vw;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        display: flex;
+        width: 100vw;
+    }
+    .footer .redes{
+        align-items: center;
+        width: 25vw;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:425px){
+    /* Mobile L */
+    body{
+        width: 115vw;
+    }
+    .logo{
+        width: 13vw;
+        height: 10vh;
+        position: absolute;
+        left: 25vw;
+        top: 2.7vh;
+    }
+    .slogan{
+        text-align: center;
+        font-size: 0.8em;
+        margin-top: 17vh;
+    }
+    .slogan h4{
+        text-shadow: 1px 2px #FFF;
+        text-align: center;
+        font-size: 1em;
+    }
+    .pesquisa{
+        width: 100vw;
+    
+    }
+    .section{
+        margin-left: 5vw;
+        display: flex;
+        width: 100vw;
+        
+    }
+    .section input{
+        width:20vw;
+    }
+    .section select{
+        width: 25vw;
+    }
+    .section button{
+        width: 20vw;
+    }
+    .content{
+        display: flex;
+        width: 120vw;
+        height: 70vh;
+        background-size: cover;
+        
+    }
+    .title{
+        font-size: 0.8em;
+        width: 120vw;
+    }
+    .sobre{
+        width: 120vw;
+        font-size: 0.9em;
+    }
+
+    .sobre h4{
+        font-size: 1em;
+    }
+    
+
+    
+    .content img{
+        margin-top:1vh;
+    }
+    .content .money{
+        margin-top:7vh ;
+    }
+    .aplicativo{
+        width: 120vw;
+        background-size: cover;
+    }
+    .aplicativo .foto{
+        position: absolute;
+        top: 185vh;
+        width: 110vw;
+    }
+    .aplicativo .download{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    .aplicativo .download h2{
+        text-shadow: 2px 1px #FFF;
+        font-size: 0.8em;
+        position: relative;
+        left:-30vw;
+    }
+    .aplicativo .download h3{
+        text-shadow: 2px 1px #FFF;
+        font-size:0.7em;
+        position: relative;
+        left: -28vw;
+    }
+    .aplicativo .download button{
+        position: relative;
+        left:-25vw;
+        
+    }
+    .aplicativo .download h5,
+    h4{
+        font-size: 0.6em;
+    }
+    .aplicativo .download button::before{
+        position: absolute;
+        left: 0vw;
+        top: 3.5vh;
+        
+    }
+    .contato{
+        width: 120vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        width: 120vw;
+    }
+}     
